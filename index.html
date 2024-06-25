@@ -24,8 +24,15 @@
             gap: 12px;
         }
 
+        .box {
+            display: flex;
+            aling-items: center;
+            gap: 12px;
+        }
+
         button {
-            width: 300px;
+            width: 100%;
+            max-width: 400px;
             padding: 10px;
             font-size: 16px;
             color: #FFFFFF;
@@ -46,9 +53,16 @@
 <body>
     <div class="container">
         <button id="abb">ABB</button>
-        <button id="fronius">FRONIUS</button>
+        <div class="box">
+            <button id="fronius-1">FRONIUS 1</button>
+            <button id="fronius-2">FRONIUS 2</button>
+            <button id="fronius-3">FRONIUS 3</button>
+        </div>
         <button id="goodwe">GOODWE</button>
-        <button id="outros">OUTROS</button>
+        <div class="box">
+            <button id="outros-1">OUTROS 1</button>
+            <button id="outros-2">OUTROS 2</button>
+        </div>
         <button id="garantia">GARANTIA</button>
     </div>
 
