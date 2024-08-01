@@ -63,6 +63,7 @@
         <div class="box">
             <button id="outros-1">OUTROS 1</button>
             <button id="outros-2">OUTROS 2</button>
+            <button id="outros-3">OUTROS 3</button>
         </div>
         <button id="garantia">GARANTIA</button>
     </div>
@@ -75,6 +76,7 @@
         const goodwe_btn = document.querySelector('#goodwe');
         const outros_btn_1 = document.querySelector('#outros-1');
         const outros_btn_2 = document.querySelector('#outros-2');
+        const outros_btn_3 = document.querySelector('#outros-3');
         const garantia_btn = document.querySelector('#garantia');
 
 
@@ -141,12 +143,12 @@
             "https://www.solarweb.com/PvSystems/PvSystem?pvSystemId=ecbd23bd-f04c-4c21-b551-52218182c446",
             "https://www.solarweb.com/PvSystems/PvSystem?pvSystemId=3018519d-750c-4156-898f-bf27ab4eab56",
             "https://app.solarz.com.br/integrador/usinas/geracao?id=121119",
-            "https://www.solarweb.com/PvSystems/PvSystem?pvSystemId=feb692ef-8869-40f7-8933-662bf0ff4474"
+            "https://www.solarweb.com/PvSystems/PvSystem?pvSystemId=feb692ef-8869-40f7-8933-662bf0ff4474",
+            "https://www.solarweb.com/PvSystems/PvSystem?pvSystemId=7caa3212-632b-4271-a522-f345035fd58d",
+            "https://www.solarweb.com/PvSystems/PvSystem?pvSystemId=f1b8c377-40f8-463e-9501-faa5ba4e81aa"
         ];
 
         const fronius_links_3 = [
-            "https://www.solarweb.com/PvSystems/PvSystem?pvSystemId=7caa3212-632b-4271-a522-f345035fd58d",
-            "https://www.solarweb.com/PvSystems/PvSystem?pvSystemId=f1b8c377-40f8-463e-9501-faa5ba4e81aa",
             "https://www.solarweb.com/PvSystems/PvSystem?pvSystemId=7af069a7-2761-426e-809e-8ad8cde04dca",
             "https://www.solarweb.com/PvSystems/PvSystem?pvSystemId=2cbbfc23-cf49-49e9-a3f2-f9ad0f80d472",
             "https://www.solarweb.com/PvSystems/PvSystem?pvSystemId=fcf4fde2-979f-46a5-9957-9ac652709b93",
@@ -165,7 +167,8 @@
             "https://www.solarweb.com/PvSystems/PvSystem?pvSystemId=f175a31c-0e94-4911-99eb-6cc02d45fb58",
             "https://www.solarweb.com/PvSystems/PvSystem?pvSystemId=fa43491e-4e2c-4467-a1df-955c49b6f1e0",
             "https://www.solarweb.com/PvSystems/PvSystem?pvSystemId=f1d3689e-e8ab-41e5-a994-f03bad7ec56b",
-            "https://www.solarweb.com/PvSystems/PvSystem?pvSystemId=8a1c55fa-f4b8-4f8a-90c4-179a76484406"
+            "https://www.solarweb.com/PvSystems/PvSystem?pvSystemId=8a1c55fa-f4b8-4f8a-90c4-179a76484406",
+            "https://www.solarweb.com/PvSystems/PvSystem?pvSystemId=40367ed6-cf84-40d5-8b46-f568ef68d2fd"
         ];
 
         const goodwe_links = [
@@ -207,15 +210,15 @@
             "https://app.solarz.com.br/integrador/usinas/geracao?id=616709",
             "https://app.solarz.com.br/integrador/usinas/geracao?id=113009",
             "https://app.solarz.com.br/integrador/usinas/geracao?id=647304",
-            "https://app.solarz.com.br/integrador/usinas/geracao?id=309570",
+            "https://app.solarz.com.br/integrador/usinas/geracao?id=309570"
+        ];
+
+        const outros_links_2 = [
             "https://app.solarz.com.br/integrador/usinas/geracao?id=758389",
             "https://app.solarz.com.br/integrador/usinas/geracao?id=90030",
             "https://app.solarz.com.br/integrador/usinas/geracao?id=734499",
             "https://app.solarz.com.br/integrador/usinas/geracao?id=322573",
-            "https://app.solarz.com.br/integrador/usinas/geracao?id=633094"
-        ];
-
-        const outros_links_2 = [
+            "https://app.solarz.com.br/integrador/usinas/geracao?id=633094",
             "https://app.solarz.com.br/integrador/usinas/geracao?id=484746",
             "https://app.solarz.com.br/integrador/usinas/geracao?id=441621",
             "https://app.solarz.com.br/integrador/usinas/geracao?id=441606",
@@ -230,7 +233,10 @@
             "https://app.solarz.com.br/integrador/usinas/geracao?id=801417",
             "https://app.solarz.com.br/integrador/usinas/geracao?id=809778",
             "https://app.solarz.com.br/integrador/usinas/geracao?id=825224",
-            "https://app.solarz.com.br/integrador/usinas/geracao?id=90054",
+            "https://app.solarz.com.br/integrador/usinas/geracao?id=90054"
+        ];
+
+        const outros_links_3 = [
             "https://app.solarz.com.br/integrador/usinas/geracao?id=821639",
             "https://app.solarz.com.br/integrador/usinas/geracao?id=221757",
             "https://app.solarz.com.br/integrador/usinas/geracao?id=645643",
@@ -249,7 +255,9 @@
             "https://app.solarz.com.br/integrador/usinas/geracao?id=927230",
             "https://app.solarz.com.br/integrador/usinas/geracao?id=734499",
             "https://app.solarz.com.br/integrador/usinas/geracao?id=952863",
-            "https://app.solarz.com.br/integrador/usinas/geracao?id=91042"
+            "https://app.solarz.com.br/integrador/usinas/geracao?id=91042",
+            "https://app.solarz.com.br/integrador/usinas/geracao?id=810140",
+            "https://app.solarz.com.br/integrador/usinas/geracao?id=941019"
         ];
 
         const garantia_links = [
